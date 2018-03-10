@@ -6,3 +6,8 @@ from flask import render_template
 def index():  # Определяем первую страницу
     name = 'Мишаня'
     return render_template('index.html', n=name)  # Возвращаем содержимое страницы и переменной.
+
+@app.route('/seting')
+def bootstrapSetings():
+    return render_template('bootstrapSetings.html')
+
