@@ -16,7 +16,7 @@ class Post(db.Model):  # Класс по созданию постов, в ба�
     body = db.Column(db.Text)
     created_data = db.Column(db.DateTime, default=datetime.now())
 
-    def __int__(self, *args, **kwargs):  # args это Список (одна звездёочка). kwargs именнованные словари.
+    def __init__(self, *args, **kwargs):  # args это Список (одна звездёочка). kwargs именнованные словари.
         super(Post, self).__init__(*args, **kwargs)
         self.generate_slug()
 
