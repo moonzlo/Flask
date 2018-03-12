@@ -6,3 +6,4 @@ class Configuration(object):
     DEBUG = True
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:111291@localhost/Flask'
+    SECRET_KEY = 'Very Secret Kays'

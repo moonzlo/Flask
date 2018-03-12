@@ -5,7 +5,7 @@ import re
 
 def slugify(s):  # Функция поиска и исправлению url страниц.
     pattern = r'[^\w+]'  # Ищет исключения
-    return re.sub(pattern, '-', s)  # Заменяет их на дефис
+    return re.sub(pattern, '-', str(s))  # Заменяет их на дефис
 
 
 post_tags = db.Table('post_tags',
@@ -50,4 +50,4 @@ class Tag(db.Model):
         self.slug = slugify(self.name)
 
     def __repr__(self):
-        return '<Tag id: {}, name: {}'.format(self.id, self.name)
+        return '{}'.format(self.name)
