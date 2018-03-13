@@ -1,4 +1,4 @@
-#!"/home/moonz/Рабочий стол/Flask/venv/bin/python3.6"
+#!/home/moonz/Flask/venv/bin/python3.6
 
 # -*- coding: utf-8 -*-
 import re
