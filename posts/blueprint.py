@@ -63,7 +63,7 @@ def index():
 
 
     if q:
-        posts = Post.query.filter(Post.title.contains(q) | Post.body.contains(q)).all()  # Метод поиска
+        posts = Post.query.filter(Post.title.contains(q) | Post.body.contains(q))  # Метод поиска
     else:
         posts = Post.query.order_by(Post.created_data.desc())
 
