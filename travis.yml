@@ -1,11 +1,8 @@
-#language: python
-#python: 3.6
-#install: pip install --user -r requirements.txt
-#script: make test
-#script: pytest 
-
 language: python
 python:
   - "3.6"
+install: 
+  pip install --user -r requirements.txt
 script:
-  python3 -m unittest discover
+  make test
+  pytest 
