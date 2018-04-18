@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/moonzlo/Flask.svg?branch=master)](https://travis-ci.org/moonzlo/Flask)
 # Flask
 Домашний проект блога. 
 
