@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #  Бета версия 
+=======
+# Стабильная версия ! Тут должно работать ВСЁ 
+>>>>>>> master
 from app import app
 from app import db
 import view
