@@ -2,7 +2,7 @@
 #  Бета версия 
 =======
 # Стабильная версия ! Тут должно работать ВСЁ 
->>>>>>> master
+>>>>>>> main
 from app import app
 from app import db
 import view
